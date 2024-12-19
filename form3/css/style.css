@@ -1,0 +1,83 @@
+body {
+  font: 20px "Lucoda Grande", Tahoma, Verdana, sans-serif;
+  color: #404040;
+}
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  width: 100%;
+}
+
+#userNotes {
+  font-size: 0.7em;
+  text-align: left;
+  padding: 10px;
+}
+
+#actions {
+  padding: 10px;
+}
+
+#infoMessage {
+  padding: 10px;
+  background-color: #bde5f8;
+  color: black;
+  font-size: 0.8em;
+}
+
+#successMessage {
+  padding: 10px;
+  background-color: green;
+  color: white;
+}
+
+#failedMessage {
+  padding: 10px;
+  background-color: red;
+  color: white;
+}
+
+#formBody {
+  padding: 5px;
+}
+
+#loginForm {
+  text-align: center;
+  border: thin solid #000;
+  width: 300px;
+  margin: 7em auto 0 auto;
+}
+
+#formHeader {
+  border-bottom: thin solid gray;
+  padding: 10px;
+  background: #f3f3f3;
+}
+
+.customButton {
+  padding: 5px;
+  width: 100%;
+  -moz-box-shadow: inset 0px 1px 0px #bbdaf7;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+  box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #79bbff) color-stop(1, #378de5)
+  );
+  background: -moz-linear-gradient(center top, #79bbff 5%, #378de5 100%);
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColors tr='#79bbff', endColorstr='#378de5');
+  background-color: #79bbff;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  display: inline-block;
+  color: #ffffff;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 1px 1px 0px #528ecc;
+  cursor: pointer;
+}
