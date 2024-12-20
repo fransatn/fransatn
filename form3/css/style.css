@@ -81,3 +81,19 @@ input[type="password"] {
   text-shadow: 1px 1px 0px #528ecc;
   cursor: pointer;
 }
+
+.customButton:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #378de5) color-stop(1, #79bbff)
+  );
+  background: -moz-linear-gradient(center top, #378de5 5%, #79bbff 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColors tr='#378de5', endColorstr='#79bbff');
+}
+
+.customButton:active {
+  position: relative;
+  top: 1px;
+}
